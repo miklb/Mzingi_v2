@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <pluggable type="theme">
 	<name>Mzingi 2</name>
-	<class>Mzingi 2</class>
+	<class>Mzingi2</class>
 	<license url="http://www.apache.org/licenses/LICENSE-2.0.html">Apache Software License 2.0</license>
 	
 	<author url="http://miklb.com/">Michael Bishop</author>
