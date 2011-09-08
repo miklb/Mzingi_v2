@@ -12,9 +12,6 @@
 
 	<link rel="shortcut icon" href="/images/favicon.ico">
 
-	<link rel="stylesheet" href="<?php Site::out_url( 'theme' ); ?>/css/reset.css">
-	<link rel="stylesheet" href="<?php Site::out_url( 'theme' ); ?>/css/style.css">
-
 	<?php $theme->header(); ?>
 </head>
 <body class="<?php $theme->body_class(); ?>">
