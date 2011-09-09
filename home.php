@@ -1,8 +1,8 @@
 <?php $theme->display ( 'header' ); ?>
 
-		<section id="primary-content">
+		<div id="primary-content">
 			
-		</section>
+		</div>
 		
 <?php $theme->display ( 'sidebar' ); ?>
 
