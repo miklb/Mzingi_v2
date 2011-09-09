@@ -12,6 +12,8 @@
 
 	<link rel="shortcut icon" href="/images/favicon.ico">
 
+	
+
 	<?php $theme->header(); ?>
 </head>
 <body class="<?php $theme->body_class(); ?>">
