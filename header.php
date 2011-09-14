@@ -11,10 +11,9 @@
 	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="<?php URL::out( 'rsd' ); ?>">
 
 	<link rel="shortcut icon" href="/images/favicon.ico">
-
 	
-
 	<?php $theme->header(); ?>
+	
 </head>
 <body class="<?php $theme->body_class(); ?>">
 	<div id="container"><!--start main wrapper-->
