@@ -1,4 +1,37 @@
 /*  Custom Style Sheet for Mzingi v2.0 
 	by Michael Bishop http://miklb.com
 */
-
+body {
+  width: 100%;
+  float: left;
+}
+body {
+  font: 100% normal;
+}
+#container {
+  margin: 36px auto;
+  width: 90%;
+}
+#primary-content {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  width: 97.91666666666666%;
+  margin: 0 1.0416666666666665%;
+}
+@media screen and (min-width: 1024px) {
+  #primary-content {
+    display: inline;
+    float: left;
+    overflow: hidden;
+    width: 64.58333333333334%;
+    margin: 0 1.0416666666666665%;
+  }
+  aside {
+    display: inline;
+    float: left;
+    overflow: hidden;
+    width: 31.25%;
+    margin: 0 1.0416666666666665%;
+  }
+}

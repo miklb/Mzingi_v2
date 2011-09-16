@@ -1,0 +1,39 @@
+/*  Custom Style Sheet for Mzingi v2.0 
+	by Michael Bishop http://miklb.com
+*/
+
+@import 'grid.less';
+
+@columns: 12;
+@column-width: 60;
+@gutter-width: 20;
+
+@total-width: 100%;
+
+
+
+body {
+	font: 100% normal;
+}
+
+#container {
+	margin: 36px auto;
+	width: 90%;
+}
+
+#primary-content {
+	.column(12);
+}
+
+@media screen and (min-width: 1024px) {
+	#primary-content {
+		.column(8);
+	}
+	
+	aside {
+		.column(4);
+	}
+	
+	
+}
+
