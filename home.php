@@ -1,6 +1,6 @@
 <?php $theme->display ( 'header' ); ?>
 
-		<div id="primary-content">
+		<section id="primary-content">
 			<?php foreach ( $posts as $post ) { ?>
 				
 				<article id="post-<?php echo $post->id; ?>" class="<?php echo $post->statusname; ?>">
