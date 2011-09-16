@@ -12,6 +12,8 @@
 
 	<link rel="shortcut icon" href="/images/favicon.ico">
 	
+	<meta name="viewport" content="initial-scale=1.0,width=device-width">
+	
 	<?php $theme->header(); ?>
 	
 </head>
