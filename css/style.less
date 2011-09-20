@@ -17,7 +17,7 @@ body {
 }
 
 #container {
-	margin: 36px auto;
+	margin: 2.25em auto;
 	width: 90%;
 }
 
@@ -29,19 +29,44 @@ body {
 	.column(12);
 }
 
-@media screen and (min-width: 1024px) {
+aside {
+	.column(12);	
+}
+
+footer {
+	.column(12);
+	margin: 0 3.75em;
+}
+
+@media screen and (min-width: 768px) {
+	
 	#primary-content {
 		.column(8);
+		margin-right: 3.75em;
 	}
 	
 	#comments {
 		.column(8);
+		margin-right: 3.75em;
 	}
 	
 	aside {
-		.column(4);
+		.column(3);
 	}
-	
-	
 }
+
+
+@media screen and (min-width: 1200px) {
+	#primary-content {
+		.column(9);
+	}
+	#comments {
+	.column(9);
+	}
+	aside {
+		.column(3);
+	}
+}
+	
+
 
