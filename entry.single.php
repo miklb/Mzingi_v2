@@ -20,10 +20,13 @@
 				<?php include 'comments.php'; ?>
 			</article>
 		</section>
+		
+		<?php $theme->display ( 'sidebar' ); ?>
+		
 		<section id="comments">
 			<?php $post->comment_form()->out(); ?>
 		</section>
 		
-		<?php $theme->display ( 'sidebar' ); ?>
+		
 
 		<?php $theme->display ( 'footer' ); ?>
