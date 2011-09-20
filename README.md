@@ -18,3 +18,9 @@ This project is first for my own benefit, as I want to redesign my other Habari 
 ## Misc ##
 
 This theme will be built on MASTER branch, so no guarantees that it everything will work with the .7.1 release. If and when .8 is released, a version will be tagged for that release.
+
+## Update ##
+
+I'm moving towards keeping this completely style free and providing a sample child theme that has a clean style and presentable.
+
+Also, experimenting with [Less CSS](http://lesscss.org/) as well as the [Semantic Grid](http://semantic.gs/) , therefore a basic style.less and the grid.less files are included. I develop on a Mac, therefore I've been using [Less.app ](http://incident57.com/less/), and not including the less.js with the dev branch.
