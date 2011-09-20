@@ -19,8 +19,22 @@ body {
   width: 97.91666666666666%;
   margin: 0 1.0416666666666665%;
 }
+#comments {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  width: 97.91666666666666%;
+  margin: 0 1.0416666666666665%;
+}
 @media screen and (min-width: 1024px) {
   #primary-content {
+    display: inline;
+    float: left;
+    overflow: hidden;
+    width: 64.58333333333334%;
+    margin: 0 1.0416666666666665%;
+  }
+  #comments {
     display: inline;
     float: left;
     overflow: hidden;
