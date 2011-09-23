@@ -25,8 +25,8 @@ class Mzingi2 extends Theme
 						    'nolimit' => 1 ) ) );
 		}
 		//Add Stylesheets
-		Stack::add('template_stylesheet', array(Site::get_url( 'theme', '/css/resest.css' )), 'reset');
-		Stack::add('template_stylesheet', array(Site::get_url( 'theme', '/css/style.css' )), 'theme');
+		Stack::add('template_stylesheet', array(Site::get_url( 'theme', '/css/normalize.css' )), 'reset');
+		Stack::add('template_stylesheet', array(Site::get_url( 'theme', '/css/styles.css' )), 'theme');
 	
 		//Add Javascript
 		Stack::add ( 'template_header_javascript', 'http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.0.6/modernizr.min.js', 'modernizr' );
