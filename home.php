@@ -23,7 +23,7 @@
 			<nav id="pagination">
 				<?php $theme->prev_page_link('&laquo; ' . _t('Previous Page')); ?> <?php $theme->page_selector( null, array( 'leftSide' => 2, 'rightSide' => 2 ) ); ?> <?php $theme->next_page_link('&raquo; ' . _t('Next Page')); ?>
 			</nav>
-		</div>
+		</section>
 		
 <?php $theme->display ( 'sidebar' ); ?>
 
