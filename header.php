@@ -14,7 +14,7 @@
 	
 	<meta name="viewport" content="initial-scale=1.0,width=device-width">
 	
-	<?php $theme->header(); ?>
+	<?php $theme->header_out(); ?>
 	
 </head>
 <body class="<?php $theme->body_class(); ?>">
