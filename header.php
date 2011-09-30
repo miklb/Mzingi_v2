@@ -7,9 +7,6 @@
 	<meta name="title" content="<?php Options::out( 'title' ) ?>">
 	<meta name="description" content="<?php Options::out( 'tagline' ) ?>">
 
-	<link rel="alternate" type="application/atom+xml" title="Atom" href="<?php $theme->feed_alternate(); ?>">
-	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="<?php URL::out( 'rsd' ); ?>">
-
 	<link rel="shortcut icon" href="/images/favicon.ico">
 	
 	<meta name="viewport" content="initial-scale=1.0,width=device-width">
