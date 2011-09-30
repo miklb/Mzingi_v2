@@ -10,6 +10,8 @@ The core goals of version 2 are:
 * Maintain minimal support for legacy browsers (I'm looking at you IE 8)
 * Better implementation and use of Habari's Areas and Blocks
 
+A future goal may be to create filters and actions within common areas, ie article header/footer, so changes could be made in theme.php and not have to completely duplicate the template to modify.
+
 This project is first for my own benefit, as I want to redesign my other Habari sites with these goals in mind. I'm making the theme public [@github](https://github.com/miklb/Mzingi_v2) for the benefit of the community. If the rest of the project team cares to update the core version to this, then by all means it will be passed to the community.  Otherwise, it will be a public repo that others can fork and use for similar purposes as that of my own.
 
 ## License ##

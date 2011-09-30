@@ -11,6 +11,7 @@ body {
 #container {
   margin: 2.25em auto;
   width: 90%;
+  overflow: auto;
 }
 #primary-content {
   display: inline;
