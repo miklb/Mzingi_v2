@@ -7,7 +7,7 @@
 	<meta name="title" content="<?php Options::out( 'title' ) ?>">
 	<meta name="description" content="<?php Options::out( 'tagline' ) ?>">
 
-	<link rel="shortcut icon" href="/images/favicon.ico">
+	<link rel="shortcut icon" href="<?php Site::out_url( 'theme' ); ?>/images/favicon.ico">
 	
 	<meta name="viewport" content="initial-scale=1.0,width=device-width">
 	
