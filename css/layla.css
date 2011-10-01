@@ -1,0 +1,77 @@
+/* Google Fonts Import
+--------------------------------------------- */
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:regular,bold|Droid+Serif:regular,italic,bold,bolditalic&subset=latin);
+
+/* General Structure and Styles
+--------------------------------------------- */
+body {
+	background-color:#ececec;
+	font-family:'Droid Sans', arial, sans-serif;
+	color: #777;
+}
+
+#container {
+	background-color:#fff;
+	z-index: 0;
+}
+
+/* Headings 
+-----------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+	font-family: 'Droid Sans', arial, sans-serif;
+}
+
+#masthead h1 {
+	font-size: 2.1em;
+	line-height:1.2;
+	font-weight: bold;
+	text-transform:uppercase;
+	margin-bottom: .25em;
+}
+
+#masthead h1 a:hover{
+	text-decoration:none;
+}
+
+#masthead h2 {
+	font:italic .9em 'Droid Serif',  Times, serif;
+	color: #777;
+	margin-top: 0;
+	font-size: 1.4em;
+}
+
+/* Links
+--------------------------------------------- */
+a, a:visited {
+	color: #009BC2;
+	text-decoration: none;
+} 
+a:hover {
+	color: #777!important;
+	text-decoration: underline;
+}
+
+/*  Nav
+----------------------------------------------*/
+
+#masthead nav ul li {
+	display: inline;
+	margin-right: 2em;
+}
+
+#masthead nav ul li a {
+	padding: .25em;
+	text-transform: uppercase;
+}
+
+#masthead nav ul li a:hover {
+	background:#F0F0F0;
+	color: #999;
+}
+
+
+
+
+
