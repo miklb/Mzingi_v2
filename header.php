@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?php echo $locale; ?>">
 <head>
-	<meta charset="utf-8">
+	<meta charset="<?php echo $charset; ?>">
 
 	<title><?php if($request->display_entry && isset($post)) { echo "{$post->title} - "; } ?><?php Options::out( 'title' ) ?></title>
 	<meta name="title" content="<?php Options::out( 'title' ) ?>">
