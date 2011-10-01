@@ -65,7 +65,7 @@ footer {
     display: inline;
     float: left;
     overflow: hidden;
-    width: 56.25%;
+    width: 89.58333333333334%;
     margin: 0 1.0416666666666665%;
     margin: 0 2.5em;
   }
@@ -98,9 +98,9 @@ footer {
     display: inline;
     float: left;
     overflow: hidden;
-    width: 65%;
+    width: 91.66666666666666%;
     margin: 0 0.8333333333333334%;
-    margin: 0 3.75em;
+    margin: 0 2.5em;
   }
   #primary-content {
     display: inline;
@@ -108,7 +108,7 @@ footer {
     overflow: hidden;
     width: 65%;
     margin: 0 0.8333333333333334%;
-    margin: 0 3.75em;
+    margin: 0 2.5em;
   }
   #comments {
     display: inline;
@@ -116,7 +116,7 @@ footer {
     overflow: hidden;
     width: 65%;
     margin: 0 0.8333333333333334%;
-    margin: 0 3.75em;
+    margin: 0 2.5em;
   }
   aside {
     display: inline;
