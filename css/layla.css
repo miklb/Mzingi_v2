@@ -42,6 +42,22 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 1.2em;
 }
 
+article h1 {
+	font-size: 1.4em;
+}
+
+article time {
+	font-style: italic;
+	font-size: .9em;
+}
+
+article {
+	margin-bottom: 5em;
+	border-bottom: 1px solid #DDD;
+	font-size: .95em;
+	line-height: 1.6;
+}
+
 /* Links
 --------------------------------------------- */
 a, a:visited {
