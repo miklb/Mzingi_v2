@@ -60,6 +60,28 @@ footer {
   margin: 0 1.0416666666666665%;
   margin: 0 2em;
 }
+@media screen and (max-width: 620px) {
+  #masthead nav ul {
+    padding: 0;
+  }
+  #masthead nav li {
+    width: 100%;
+    margin:0;
+    float: none;
+    overflow: hidden;
+    background-color: #F0F0F0;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+  }
+  #masthead nav li a {
+    width: 100%;
+    margin: 0;
+    padding: 12px 0 11px;
+    float: left;
+    display: block;
+    background-color: #F0F0F0;
+  }
+}
 @media screen and (min-width: 768px) {
   #masthead {
     display: inline;
