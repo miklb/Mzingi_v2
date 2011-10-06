@@ -62,15 +62,14 @@ footer {
 }
 @media screen and (max-width: 620px) {
   #masthead nav ul {
+    border-top: 1px solid #ddd;
     padding: 0;
   }
   #masthead nav li {
     width: 100%;
     margin:0;
     float: none;
-    overflow: hidden;
     background-color: #F0F0F0;
-    border-bottom: 1px solid #ddd;
     text-align: center;
   }
   #masthead nav li a {
@@ -80,6 +79,13 @@ footer {
     float: left;
     display: block;
     background-color: #F0F0F0;
+    border-bottom: 1px solid #ddd;
+  }
+  #masthead nav li a:active, 
+  #masthead nav li a:focus, 
+  #masthead nav li a:hover {
+    text-decoration: none;
+    background-color: #D4D4D4 !important;
   }
 }
 @media screen and (min-width: 768px) {
