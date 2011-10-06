@@ -58,6 +58,26 @@ article {
 	line-height: 1.6;
 }
 
+/* Single Post
+---------------------------------------------*/
+.display_entry article footer {
+	border: 1px solid #E9EBE8;
+	color: #C3C7C2;
+	font-size: 13px;
+	margin: 10px 20px;
+	background: ##fafbf9;
+	padding: 8px 12px;
+	box-shadow:2px 2px 4px #D6DBD5;
+	-webkit-box-shadow:2px 2px 4px #D6DBD5;
+	-moz-box-shadow: 2px 2px 4px #D6DBD5;
+}
+
+.display_entry article footer img {
+	float: left;
+	padding: 1em;
+	
+}
+
 /* Links
 --------------------------------------------- */
 a, a:visited {

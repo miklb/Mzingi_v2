@@ -2,7 +2,7 @@
 		Session::messages_out();
 	}
 ?>
-				<h2><?php $theme->comments_count($post,'%d Responses','%d Response','%d Responses'); ?> <?php _e('to'); ?> <?php echo $post->title; ?></h2>
+				<h2><?php echo $theme->comments_count($post,'%d Responses','%d Response','%d Responses'); ?> <?php _e('to'); ?> <?php echo $post->title; ?></h2>
 			
 				<?php if( $post->comments->pingbacks->count ) : ?>
 					<article id="pingbacks">
