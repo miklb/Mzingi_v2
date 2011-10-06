@@ -52,7 +52,7 @@ aside {
   margin: 0 1.0416666666666665%;
   margin: 0 2em;
 }
-footer {
+#colophon {
   display: inline;
   float: left;
   overflow: hidden;
@@ -60,7 +60,6 @@ footer {
   margin: 0 1.0416666666666665%;
   margin: 0 2em;
 }
-
 @media screen and (min-width: 768px) {
   #masthead {
     display: inline;
@@ -107,7 +106,7 @@ footer {
     display: inline;
     float: left;
     overflow: hidden;
-    width: 58.333333333333336%;
+    width: 65%;
     margin: 0 0.8333333333333334%;
     margin: 0 2.5em;
   }
@@ -115,9 +114,23 @@ footer {
     display: inline;
     float: left;
     overflow: hidden;
-    width: 58.333333333333336%;
+    width: 65%;
     margin: 0 0.8333333333333334%;
     margin: 0 2.5em;
+    display: inline;
+    float: left;
+    overflow: hidden;
+    width: 58.333333333333336%;
+    margin: 0 0.8333333333333334%;
+    margin: 0 3.75em;
+  }
+  #comments {
+    display: inline;
+    float: left;
+    overflow: hidden;
+    width: 58.333333333333336%;
+    margin: 0 0.8333333333333334%;
+    margin: 0 3.75em;
   }
   aside {
     display: inline;
