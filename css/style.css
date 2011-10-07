@@ -69,6 +69,14 @@ aside {
     margin: 0 1.0416666666666665%;
     margin: 0 2.5em;
   }
+  .display_page #primary-content {
+    display: inline;
+    float: left;
+    overflow: hidden;
+    width: 81.25%;
+    margin: 0 1.0416666666666665%;
+    margin: 0 2.5em;
+  }
   #primary-content {
     display: inline;
     float: left;
@@ -99,6 +107,14 @@ aside {
     float: left;
     overflow: hidden;
     width: 65%;
+    margin: 0 0.8333333333333334%;
+    margin: 0 3.75em;
+  }
+  .display_page #primary-content {
+    display: inline;
+    float: left;
+    overflow: hidden;
+    width: 85%;
     margin: 0 0.8333333333333334%;
     margin: 0 3.75em;
   }
