@@ -20,13 +20,16 @@
 				<?php include 'comments.php'; ?>
 				
 			</article>
+			
+				<div id="comments">
+					<?php $post->comment_form()->out(); ?>
+				</div>
+				
 		</section>
 		
 		<?php $theme->display ( 'sidebar' ); ?>
 		
-		<section id="comments">
-			<?php $post->comment_form()->out(); ?>
-		</section>
+	
 		
 		
 
