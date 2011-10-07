@@ -122,7 +122,7 @@ aside {
     display: inline;
     float: left;
     overflow: hidden;
-    width: 58.333333333333336%;
+    width: 65%;
     margin: 0 0.8333333333333334%;
     margin: 0 2.5em;
   }
@@ -130,9 +130,17 @@ aside {
     display: inline;
     float: left;
     overflow: hidden;
-    width: 58.333333333333336%;
+    width: 65%;
     margin: 0 0.8333333333333334%;
     margin: 0 2.5em;
+    display: inline;
+    float: left;
+    overflow: hidden;
+    width: 58.333333333333336%;
+    margin: 0 0.8333333333333334%;
+    margin: 0 3.75em;
+  }
+  #comments {
     display: inline;
     float: left;
     overflow: hidden;
