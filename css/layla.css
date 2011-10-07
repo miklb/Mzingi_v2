@@ -161,14 +161,7 @@ a:hover {
 }
 
 .commentform label, #jambo label {
-	display: block;
-	font-family: 'DejaVuSerifBold', Arial, sans-serif;
-	display: inline-block;
-	float: left;
-	padding-right: 6px;
-	width: 120px;
-	line-height: 16px;
-
+	padding:15px 0 0;
 }
 
 .commentform input, #jambo input {
