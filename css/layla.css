@@ -142,5 +142,87 @@ a:hover {
   }
 }
 
+/*  Comment Form
+-------------------------------------------*/
+
+.commentform, #jambo {
+	background-color: #F0F0F0;
+	}
+	
+
+.commentform fieldset, #jambo fieldset {
+	padding: 15px;
+	border: none;
+	
+}
+
+.commentform legend, #jambo legend {
+		
+}
+
+.commentform label, #jambo label {
+	display: block;
+	font-family: 'DejaVuSerifBold', Arial, sans-serif;
+	display: inline-block;
+	float: left;
+	padding-right: 6px;
+	width: 120px;
+	line-height: 16px;
+
+}
+
+.commentform input, #jambo input {
+		width: 60%;
+		margin: 5px 0 0;
+		padding: 9px 5px 9px;
+		display: block;
+		background-color:#fff;
+		border: 1px solid #ddd;
+		font-size:1em; 
+	
+}
+
+.commentform textarea, #jambo textarea {
+		width:95%;
+		margin: 5px 0 0;
+		padding: 9px 5px;
+		background-color:#fff;
+		border: 1px solid #ddd;
+		font: 1em 'Droid Sans', arial, sans-serif;
+}
+
+#cf_contentbox label {
+	display: none;
+}
+
+.commentform .button, #jambo .button  {
+		width: 75px;
+		margin: 10px 0 0;
+		padding: 8px 10px 7px;
+		display: inline-block;
+		vertical-align: baseline;
+		outline: none;
+		background-color: #777;
+		border: none;
+		font-size: .75em;
+		color: #fff;
+		text-align: center;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		cursor: pointer;
+}
+
+.commentform .button:hover, #jambo .button:hover{
+	background-color: #009BC2;
+	color: #fff;
+}
+
+.required {
+	font-style: italic;
+	font-size: 11px;
+	color: red;
+}
+
+
 
 

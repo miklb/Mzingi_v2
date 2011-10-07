@@ -18,6 +18,7 @@
 				</footer>
 				
 				<?php include 'comments.php'; ?>
+				
 			</article>
 		</section>
 		
