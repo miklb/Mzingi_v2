@@ -6,7 +6,7 @@
 			
 				<?php if( $post->comments->pingbacks->count ) : ?>
 					<article id="pingbacks">
-						<h2 id="ping-count"><?php $theme->pingback_count($post); ?></h2>
+						<h2 id="ping-count"><?php echo $theme->pingback_count($post); ?></h2>
 						<ul id="pinglist">
 							<?php foreach ( $post->comments->pingbacks->approved as $pingback ) : ?>
 								<li id="ping-<?php echo $pingback->id; ?>">
