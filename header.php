@@ -21,7 +21,7 @@
 				<h1><a href="<?php Site::out_url( 'habari'); ?>" title="<?php Options::out( 'title' ); ?>"> <?php Options::out( 'title' ); ?></a></h1>
 				<h2><?php Options::out( 'tagline' ); ?></h2>
 			</hgroup>
-				<img src="<?php Site::out_url( 'theme') ; ?>/images/ginko.jpg" alt="Ginko pic">
+				<img src="<?php Site::out_url( 'theme') ; ?>/images/ferns_1_web.jpg" alt="Ginko pic">
 			<nav>
 				<ul>
 					<li><a href="<?php Site::out_url( 'habari' ); ?>"><?php _e('Home'); ?></a></li>
