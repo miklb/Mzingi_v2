@@ -82,7 +82,6 @@ aside {
   }
   #masthead nav ul li a {
     padding: .25em;
-    text-transform: uppercase;
   }
 }
 @media screen and (min-width: 768px) {
