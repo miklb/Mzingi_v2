@@ -60,6 +60,31 @@ aside {
   margin: 0 1.0416666666666665%;
   margin: 0 2em;
 }
+/*  Nav
+-------------------------------------------*/#masthead hgroup {
+  text-align: center;
+}
+#masthead nav li {
+  text-align: center;
+}
+#masthead nav li a {
+  margin: 0;
+  padding: 1em 0;
+  display: block;
+}
+@media screen and (min-width: 480px) {
+  #masthead hgroup {
+    text-align: left;
+  }
+  #masthead nav ul li {
+    float: left;
+    margin-right: 2em;
+  }
+  #masthead nav ul li a {
+    padding: .25em;
+    text-transform: uppercase;
+  }
+}
 @media screen and (min-width: 768px) {
   #masthead {
     display: inline;
