@@ -76,6 +76,13 @@ aside {
   #masthead hgroup {
     text-align: left;
   }
+  #masthead nav {
+    display: inline;
+    float: left;
+    overflow: hidden;
+    width: 97.91666666666666%;
+    margin: 0 1.0416666666666665%;
+  }
   #masthead nav ul li {
     float: left;
     margin-right: 2em;
@@ -100,7 +107,7 @@ aside {
     overflow: hidden;
     width: 81.25%;
     margin: 0 1.0416666666666665%;
-    margin: 0 2.5em;
+    margin: 0 2em;
   }
   #primary-content {
     display: inline;
@@ -133,7 +140,7 @@ aside {
     overflow: hidden;
     width: 91.66666666666666%;
     margin: 0 0.8333333333333334%;
-    margin: 0 2.5em;
+    margin: 0 2em;
   }
   .display_page #primary-content {
     display: inline;
