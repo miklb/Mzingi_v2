@@ -1,212 +1,168 @@
-/* layla CSS */
-/* Google Fonts Import
---------------------------------------------- */
-@import url(http://fonts.googleapis.com/css?family=Droid+Sans:regular,bold|Droid+Serif:regular,italic,bold,bolditalic&subset=latin);
-
-/* General Structure and Styles
---------------------------------------------- */
+/*  Custom Style Sheet for Mzingi v2.0 
+	by Michael Bishop http://miklb.com
+*/
 body {
-	background-color:#ececec;
-	font-family:'Droid Sans', arial, sans-serif;
-	color: #777;
+  width: 100%;
+  float: left;
 }
+body {
+  font: 100% normal;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+  /* ie8 */
 
+}
 #container {
-	background-color:#fff;
-	z-index: 0;
+  margin: 2.25em auto;
+  width: 90%;
+  overflow: auto;
 }
-
-/* Headings 
------------------------------------------------*/
-
-h1, h2, h3, h4, h5, h6 {
-	font-weight: bold;
-	font-family: 'Droid Sans', arial, sans-serif;
+#masthead {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  width: 81.25%;
+  margin: 0 1.0416666666666665%;
+  margin: 0 2em;
 }
-
-#masthead h1 {
-	font-size: 2.1em;
-	line-height:1.2;
-	font-weight: bold;
-	text-transform:uppercase;
-	margin-bottom: .25em;
+#primary-content {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  width: 81.25%;
+  margin: 0 1.0416666666666665%;
+  margin: 0 2em;
 }
-
-#masthead h1 a:hover{
-	text-decoration:none;
+#comments {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  width: 81.25%;
+  margin: 0 1.0416666666666665%;
+  margin: 0 2em;
 }
-
-#masthead h2 {
-	font:italic .9em 'Droid Serif',  Times, serif;
-	color: #777;
-	margin-top: 0;
-	font-size: 1.2em;
+aside {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  width: 81.25%;
+  margin: 0 1.0416666666666665%;
+  margin: 0 2em;
 }
-
-article h1 {
-	font-size: 1.4em;
+#colophon {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  width: 81.25%;
+  margin: 0 1.0416666666666665%;
+  margin: 0 2em;
 }
-
-article time {
-	font-style: italic;
-	font-size: .9em;
-}
-
-article {
-	margin-bottom: 5em;
-	border-bottom: 1px solid #DDD;
-	font-size: .95em;
-	line-height: 1.6;
-}
-
-/* Single Post
----------------------------------------------*/
-.display_entry article footer {
-	border: 1px solid #E9EBE8;
-	color: #C3C7C2;
-	font-size: 13px;
-	margin: 10px 20px;
-	background: ##fafbf9;
-	padding: 8px 12px;
-	box-shadow:2px 2px 4px #D6DBD5;
-	-webkit-box-shadow:2px 2px 4px #D6DBD5;
-	-moz-box-shadow: 2px 2px 4px #D6DBD5;
-}
-
-.display_entry article footer img {
-	float: left;
-	padding: 1em;
-	
-}
-
-/* Links
---------------------------------------------- */
-a, a:visited {
-	color: #009BC2;
-	text-decoration: none;
-} 
-a:hover {
-	color: #777!important;
-	text-decoration: underline;
-}
-
 /*  Nav
-----------------------------------------------*/
-
-#masthead nav ul li a:hover {
-	background:#F0F0F0;
-	color: #999;
+-------------------------------------------*/#masthead hgroup {
+  text-align: center;
 }
-
-#masthead nav ul {
-    border-top: 1px solid #ddd;
-    padding: 0;
-  }
-
 #masthead nav li {
-    background-color: #F0F0F0;
-  }
-
+  text-align: center;
+}
 #masthead nav li a {
-    background: #F0F0F0;
-    border-bottom: 1px solid #ddd;
-  }
-
-#masthead nav li a:active, 
-  #masthead nav li a:focus, 
-  #masthead nav li a:hover {
-    text-decoration: none;
-    background: #D4D4D4 ;
-  }
-
+  margin: 0;
+  padding: 1em 0;
+  display: block;
+}
 @media screen and (min-width: 480px) {
-	
-	#masthead nav ul {
-		border: none;
-	}
-	
-	#masthead nav li a {
-		background: none;
-		border: none;
-	}
-
-	#masthead nav ul li a:active, 
-	  #masthead nav li a:focus, 
-	  #masthead nav li a:hover {
-	  background: none;
-	  }
+  #masthead hgroup {
+    text-align: left;
+  }
+  #masthead nav ul li {
+    float: left;
+    margin-right: 2em;
+  }
+  #masthead nav ul li a {
+    padding: .25em;
+  }
 }
-
-/*  Comment Form
--------------------------------------------*/
-
-.commentform, #jambo {
-	background-color: #F0F0F0;
-	}
-	
-
-.commentform fieldset, #jambo fieldset {
-	padding: 15px;
-	border: none;
-	
+@media screen and (min-width: 768px) {
+  #masthead {
+    display: inline;
+    float: left;
+    overflow: hidden;
+    width: 56.25%;
+    margin: 0 1.0416666666666665%;
+    margin: 0 2.5em;
+  }
+  .display_page #primary-content {
+    display: inline;
+    float: left;
+    overflow: hidden;
+    width: 81.25%;
+    margin: 0 1.0416666666666665%;
+    margin: 0 2.5em;
+  }
+  #primary-content {
+    display: inline;
+    float: left;
+    overflow: hidden;
+    width: 56.25%;
+    margin: 0 1.0416666666666665%;
+    margin: 0 2.5em;
+  }
+  #comments {
+    display: inline;
+    float: left;
+    overflow: hidden;
+    width: 56.25%;
+    margin: 0 1.0416666666666665%;
+    margin: 0 2.5em;
+  }
+  aside {
+    display: inline;
+    float: left;
+    overflow: hidden;
+    width: 22.916666666666664%;
+    margin: 0 1.0416666666666665%;
+  }
 }
-
-.commentform legend, #jambo legend {
-		
-}
-
-.commentform label, #jambo label {
-	padding:15px 0 0;
-}
-
-.commentform input, #jambo input {
-		width: 60%;
-		margin: 5px 0 0;
-		padding: 9px 5px 9px;
-		display: block;
-		background-color:#fff;
-		border: 1px solid #ddd;
-		font-size:1em; 
-	
-}
-
-.commentform textarea, #jambo textarea {
-		width:95%;
-		margin: 5px 0 0;
-		padding: 9px 5px;
-		background-color:#fff;
-		border: 1px solid #ddd;
-		font: 1em 'Droid Sans', arial, sans-serif;
-}
-
-#cf_contentbox label {
-	display: none;
-}
-
-.commentform .button, #jambo .button  {
-		width: 75px;
-		margin: 10px 0 0;
-		padding: 8px 10px 7px;
-		display: inline-block;
-		vertical-align: baseline;
-		outline: none;
-		background-color: #777;
-		border: none;
-		font-size: .75em;
-		color: #fff;
-		text-align: center;
-		text-transform: uppercase;
-		letter-spacing: 1px;
-		cursor: pointer;
-}
-
-.commentform .button:hover, #jambo .button:hover{
-	background-color: #009BC2;
-	color: #fff;
-}
-
-.required {
-	font-style: italic;
-	font-size: 11px;
-	color: red;
+@media screen and (min-width: 1200px) {
+  #masthead {
+    display: inline;
+    float: left;
+    overflow: hidden;
+    width: 65%;
+    margin: 0 0.8333333333333334%;
+    margin: 0 3.75em;
+  }
+  .display_page #primary-content {
+    display: inline;
+    float: left;
+    overflow: hidden;
+    width: 85%;
+    margin: 0 0.8333333333333334%;
+    margin: 0 3.75em;
+  }
+  #primary-content {
+    display: inline;
+    float: left;
+    overflow: hidden;
+    width: 58.333333333333336%;
+    margin: 0 0.8333333333333334%;
+    margin: 0 3.75em;
+  }
+  #comments {
+    display: inline;
+    float: left;
+    overflow: hidden;
+    width: 58.333333333333336%;
+    margin: 0 0.8333333333333334%;
+    margin: 0 3.75em;
+  }
+  aside {
+    display: inline;
+    float: left;
+    overflow: hidden;
+    width: 25%;
+    margin: 0 0.8333333333333334%;
+  }
 }
