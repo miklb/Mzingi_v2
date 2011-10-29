@@ -1,28 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <pluggable type="theme">
-<<<<<<< HEAD
 	<name>Mzingi 2</name>
 	<class>Mzingi2</class>
-	<license url="http://www.apache.org/licenses/LICENSE-2.0.html">Apache Software License 2.0</license>
-	
-	<author url="http://miklb.com/">Michael Bishop</author>
-	
+	<license url="http://www.apache.org/licenses/LICENSE-2.0.html">Apache Software License 2.0</license>	
+	<author url="http://miklb.com/">Michael Bishop</author>	
 	<version>2.0a</version>
 	<url>http://miklb.com</url>
 	<description><![CDATA[Mzingi, Swahili for foundation, is intended as a clean, simple design that can be used
 		as a framework for customization and theme development. Version 2 is intended to remove the fixed grid and be responsive, as well as leverage HTML5, CSS3 and have a slightly more finished look and feel.]]></description>
-	
-=======
-	<name>Layla</name>
-	<parent>Mzingi 2</parent>
-	<license url="http://www.apache.org/licenses/LICENSE-2.0.html">Apache Software License 2.0</license>
-	<author url="http://miklb.com/">Michael Bishop</author>
-	<version>0.1</version>
 	<url>http://miklb.com</url>
-	<description><![CDATA[Child theme of Mzingi2, with style inspired by WordPress theme, Yoko]]></description>
->>>>>>> initial child theme files
 	<template_engine>rawphpengine</template_engine>
-
 	<copyright>2011</copyright>
 	<areas>
 		<area name="sidebar">
