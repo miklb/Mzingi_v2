@@ -1,5 +1,6 @@
 <?php
 
+<<<<<<< HEAD
 class Mzingi2 extends Theme
 {
 	public function action_init_theme() {
@@ -53,6 +54,21 @@ class Mzingi2 extends Theme
 		$form->cf_submit->caption = _t( 'Submit' );
 		
 	}
+=======
+class Layla extends Mzingi2
+{
+	
+	
+	public function action_add_template_vars($theme) {
+		
+		//Add Parent Theme Template Variables
+		parent::action_add_template_vars($theme);
+		//Add Stylesheets
+		Stack::add('template_stylesheet', array(Site::get_url( 'theme', '/css/style.css' )), 'theme');
+	
+	}
+	
+>>>>>>> initial child theme files
 	
 }	
 
