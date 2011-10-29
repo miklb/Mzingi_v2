@@ -30,7 +30,7 @@
 				?>
 				<article id="comment-<?php echo $comment->id; ?>" <?php echo $class; ?>>
 					<img src="<?php echo $comment->gravatar ?>" class="gravatar" alt="gravatar">
-					<p>On <time datetime="<?php $comment->date->out('Y-m-d'); ?>"><a href="#comment-<?php echo $comment->id; ?>"><?php $comment->date->out('M jS, Y'); ?></a> at <?php $comment->date->out('h:ia'); ?></time>
+					<p><p>On <data itemprop="datePublished" value="<?php $comment->date->out('Y-m-d'); ?>"><a href="#comment-<?php echo $comment->id; ?>"><?php $comment->date->out('M jS, Y'); ?></a> at <?php $comment->date->out('h:ia'); ?></data>
 					<a href="<?php echo $comment->url; ?>"><?php echo $comment->name; ?></a> <?php _e('added:'); ?></p>
 					<div class="comment-content">
 						<?php echo $comment->content_out; ?>

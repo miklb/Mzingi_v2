@@ -11,7 +11,7 @@
 				<footer>
 		
 						<?php if ( isset ( $post->author->info->imageurl ) ) { ?><img src="<?php echo $post->author->info->imageurl; ?>" alt="<?php echo $post->author->displayname; ?>" class="auth-img"><?php } ?>
-					<p><?php echo $post->title; ?> was authored by <?php echo $post->author->displayname; ?> on <time datetime="<?php echo $post->pubdate_datetime; ?>"><?php echo $post->pubdate_out; ?></time>.  This entry has been tagged with the keywords: 	<?php if( count( $post->tags ) ) { ?><?php echo $post->tags_out; ?><?php } ?>.  If you would like to follow the comments on this post, you can subscribe to its <a href="<?php echo $post->comment_feed_link; ?>">Atom feed</a>.
+					<p><?php echo $post->title; ?> was authored by <?php echo $post->author->displayname; ?> on <data itemprop="datePublished" value="<?php echo $post->pubdate_datetime; ?>"><?php echo $post->pubdate_out; ?></data>. This entry has been tagged with the keywords: <?php if( count( $post->tags ) ) { ?><?php echo $post->tags_out; ?><?php } ?>. If you would like to follow the comments on this post, you can subscribe to its <a href="<?php echo $post->comment_feed_link; ?>">Atom feed</a>.
 						
 					</p>
 					

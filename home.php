@@ -6,7 +6,7 @@
 				<article id="post-<?php echo $post->id; ?>" class="<?php echo $post->statusname; ?>">
 					<header>								
 						<h1><a href="<?php echo $post->permalink; ?>" title="<?php echo $post->title; ?>"><?php echo $post->title_out; ?></a></h1>
-						<time datetime="<?php echo $post->pubdate_datetime; ?>"><?php echo $post->pubdate_out; ?></time>
+						<p class="time"><data itemprop="datePublished" value="<?php echo $post->pubdate_datetime; ?>"><?php echo $post->pubdate_out; ?></data></p>
 					</header>
 
 						<?php echo $post->content_out; ?>
