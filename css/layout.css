@@ -3,7 +3,14 @@
 */
 body {
   width: 100%;
-  float: left;
+  *zoom: 1;
+}
+body:before, body:after {
+  content: "";
+  display: table;
+}
+body:after {
+  clear: both;
 }
 body {
   font: 100% normal;
@@ -23,45 +30,35 @@ img {
 #masthead {
   display: inline;
   float: left;
-  overflow: hidden;
   width: 81.25%;
   margin: 0 1.0416666666666665%;
-  margin: 0 2em;
 }
 #primary-content {
   display: inline;
   float: left;
-  overflow: hidden;
   width: 81.25%;
   margin: 0 1.0416666666666665%;
-  margin: 0 2em;
 }
 #comments {
   display: inline;
   float: left;
-  overflow: hidden;
   width: 81.25%;
   margin: 0 1.0416666666666665%;
-  margin: 0 2em;
 }
 aside {
   display: inline;
   float: left;
-  overflow: hidden;
   width: 81.25%;
   margin: 0 1.0416666666666665%;
-  margin: 0 2em;
 }
 #colophon {
   display: inline;
   float: left;
-  overflow: hidden;
   width: 81.25%;
   margin: 0 1.0416666666666665%;
-  margin: 0 2em;
 }
-/*  Nav */
-#masthead hgroup {
+/*  Nav
+-------------------------------------------*/#masthead hgroup {
   text-align: center;
 }
 #masthead nav li {
@@ -88,81 +85,66 @@ aside {
   #masthead {
     display: inline;
     float: left;
-    overflow: hidden;
     width: 56.25%;
     margin: 0 1.0416666666666665%;
-    margin: 0 2.5em;
   }
   .display_page #primary-content {
     display: inline;
     float: left;
-    overflow: hidden;
     width: 81.25%;
     margin: 0 1.0416666666666665%;
-    margin: 0 2.5em;
   }
   #primary-content {
     display: inline;
     float: left;
-    overflow: hidden;
-    width: 56.25%;
+    width: 64.58333333333334%;
     margin: 0 1.0416666666666665%;
-    margin: 0 2.5em;
   }
   #comments {
     display: inline;
     float: left;
-    overflow: hidden;
     width: 56.25%;
     margin: 0 1.0416666666666665%;
-    margin: 0 2.5em;
   }
   aside {
     display: inline;
     float: left;
-    overflow: hidden;
     width: 22.916666666666664%;
     margin: 0 1.0416666666666665%;
+    margin-left: 6.753472222222222%;
   }
 }
 @media screen and (min-width: 1200px) {
   #masthead {
     display: inline;
     float: left;
-    overflow: hidden;
     width: 65%;
     margin: 0 0.8333333333333334%;
-    margin: 0 3.75em;
   }
   .display_page #primary-content {
     display: inline;
     float: left;
-    overflow: hidden;
     width: 85%;
     margin: 0 0.8333333333333334%;
-    margin: 0 3.75em;
+    margin-left: 6.753472222222222%;
   }
   #primary-content {
     display: inline;
     float: left;
-    overflow: hidden;
-    width: 58.333333333333336%;
+    width: 65%;
     margin: 0 0.8333333333333334%;
-    margin: 0 3.75em;
   }
   #comments {
     display: inline;
     float: left;
-    overflow: hidden;
     width: 58.333333333333336%;
     margin: 0 0.8333333333333334%;
-    margin: 0 3.75em;
   }
   aside {
     display: inline;
     float: left;
-    overflow: hidden;
     width: 25%;
     margin: 0 0.8333333333333334%;
+    margin-left: 6.753472222222222%;
   }
 }
