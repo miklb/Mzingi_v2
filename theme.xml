@@ -8,9 +8,9 @@
 	<url>http://miklb.com</url>
 	<description><![CDATA[Mzingi, Swahili for foundation, is intended as a clean, simple design that can be used
 		as a framework for customization and theme development. Version 2 is intended to remove the fixed grid and be responsive, as well as leverage HTML5, CSS3 and have a slightly more finished look and feel.]]></description>
-	<url>http://miklb.com</url>
 	<template_engine>rawphpengine</template_engine>
 	<copyright>2011</copyright>
+	<guid>f7c83f6c-9f7e-4a66-8ffc-eb7907ed628f</guid>
 	<areas>
 		<area name="sidebar">
 			<description><![CDATA[Sidebar]]></description>
