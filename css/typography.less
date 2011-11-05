@@ -1,0 +1,54 @@
+/*General Typography Styles */
+
+@import 'variables-mixins.less';
+
+@basefont: 16; // in pixels
+@baseline: 24px; // in pixels
+
+.font-size( @target: @basefont, @context: @basefont ) {
+    font-size: (@target / @context) + 0em;
+}
+
+body {
+	font: 100% normal;
+	line-height: 1.5em;
+	color: @Black;
+}
+h1, h2, h3, h4, h5, h6 {
+	color:@DarkBlue;
+	margin-bottom: @baseline;
+}
+
+h1 {
+	.font-size(36);
+	margin-bottom: @baseline;
+}
+
+h2 {
+	.font-size(30);
+}
+
+h3 {
+	.font-size(24);
+}
+
+h4 {
+	.font-size(20);
+}
+
+h5 {
+	.font-size(18);
+}
+
+h6 {
+	.font-size(16);
+	font-weight: 700;
+	text-transform: capitalize;
+}
+
+.entry p {
+	.font-size(18);
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;
+}

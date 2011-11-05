@@ -1,0 +1,39 @@
+/* Some Easy to change variables && common mixins */
+
+//Links
+@LinkColor: rgb(22, 126, 162);
+@LinkColorHover: rgb(31, 83, 113);
+
+//Colors
+@White: rgb(251, 255, 251);
+@LightBlue: rgb(220, 228, 234);
+@DarkBlue: rgb(42, 101, 122);
+@Black: rgb(33, 56, 70);
+
+
+
+.color ()
+// Border Radius
+.border-radius(@radius: 5px) {
+  -webkit-border-radius: @radius;
+     -moz-border-radius: @radius;
+          border-radius: @radius;
+}
+
+// Drop shadows
+.box-shadow(@shadow: 0 1px 3px rgba(0,0,0,.25)) {
+  -webkit-box-shadow: @shadow;
+     -moz-box-shadow: @shadow;
+          box-shadow: @shadow;
+}
+
+// CSS3 Content Columns
+.content-columns(@columnCount, @columnGap: 30px) {
+  -webkit-column-count: @columnCount;
+     -moz-column-count: @columnCount;
+          column-count: @columnCount;
+  -webkit-column-gap: @columnGap;
+     -moz-column-gap: @columnGap;
+          column-gap: @columnGap;
+}
+

@@ -12,9 +12,6 @@ body:before, body:after {
 body:after {
   clear: both;
 }
-body {
-  font: 100% normal;
-}
 img {
   max-width: 100%;
   height: auto;
