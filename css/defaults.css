@@ -2,6 +2,9 @@
 a, a:visited {
   color: #167ea2;
 }
+a:hover {
+  color: #1f5371;
+}
 h1 a, h2 a {
   text-decoration: none;
 }
