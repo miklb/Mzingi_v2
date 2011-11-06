@@ -15,7 +15,7 @@
 						<?php if ( count( $post->tags ) > 0 )  { ?>
 						<div class="tags"><?php _e('Tagged:'); ?> <?php echo $post->tags_out; ?></div>
 						<?php } ?>
-						<div class="commentCount"><?php $theme->comments_link($post,'%d Comments','%d Comment','%d Comments'); ?></div>
+						<div class="commentCount"><?php echo $theme->comments_link($post,'%d Comments','%d Comment','%d Comments'); ?></div>
 						
 					</footer>
 				</article>
