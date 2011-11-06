@@ -8,9 +8,9 @@
 						<h1><a href="<?php echo $post->permalink; ?>" title="<?php echo $post->title; ?>"><?php echo $post->title_out; ?></a></h1>
 						<p class="time"><data itemprop="datePublished" value="<?php echo $post->pubdate_datetime; ?>"><?php echo $post->pubdate_out; ?></data></p>
 					</header>
-
-						<?php echo $post->content_out; ?>
-
+						<div class="entry">
+							<?php echo $post->content_out; ?>
+						</div>
 					<footer>
 						<?php if ( count( $post->tags ) > 0 )  { ?>
 						<div class="tags"><?php _e('Tagged:'); ?> <?php echo $post->tags_out; ?></div>
