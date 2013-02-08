@@ -23,8 +23,8 @@ similar purposes as that of my own.
 
 ## Misc ##
 
-This theme will be built on MASTER branch, so no guarantees that it everything will work with the .7.1 release. If and when .8 is released,
-a version will be tagged for that release.
+This theme currently works with the .9 stable release, backward compatiblity is not guaranteed. I will tag a .9 release once habari mater branch
+is stable enough to start using in a production environment.
 
 ## Update ##
 
