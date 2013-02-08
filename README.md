@@ -19,7 +19,7 @@ This project is first for my own benefit, as I want to redesign my other Habari 
 version to this, then by all means it will be passed to the community. Otherwise, it will be a public repo that others can fork and use for
 similar purposes as that of my own.
 
-## License ## [Apache Software License 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
+## License [Apache Software License 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) ##
 
 ## Misc ##
 
