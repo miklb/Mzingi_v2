@@ -186,33 +186,33 @@ aside {
   #masthead {
     display: inline;
     float: left;
-    width: 65%;
-    margin: 0 0.8333333333333334%;
+    width: 81.25%;
+    margin: 0 1.0416666666666665%;
   }
   .display_page #primary-content {
     display: inline;
     float: left;
-    width: 85%;
-    margin: 0 0.8333333333333334%;
+    width: 106.25%;
+    margin: 0 1.0416666666666665%;
     margin-left: 9.374999999999998%;
   }
   #primary-content {
     display: inline;
     float: left;
-    width: 65%;
-    margin: 0 0.8333333333333334%;
+    width: 81.25%;
+    margin: 0 1.0416666666666665%;
   }
   #comments {
     display: inline;
     float: left;
-    width: 58.333333333333336%;
-    margin: 0 0.8333333333333334%;
+    width: 72.91666666666666%;
+    margin: 0 1.0416666666666665%;
   }
   aside {
     display: inline;
     float: left;
-    width: 25%;
-    margin: 0 0.8333333333333334%;
+    width: 31.25%;
+    margin: 0 1.0416666666666665%;
     margin-left: 9.374999999999998%;
   }
 }

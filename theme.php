@@ -26,7 +26,7 @@ class Mzingi2 extends Theme
 		}
 		//Add Stylesheets
 		Stack::add('template_stylesheet', array($this->get_url( '/css/normalize.css' )), 'reset');
-		Stack::add('template_stylesheet', array($this->get_url(  '/css/style.css' )), 'main', 'reset');
+		Stack::add('template_stylesheet', array($this->get_url(  '/css/parent.css' )), 'main', 'reset');
 	
 		//Add Javascript
 		Stack::add ( 'template_header_javascript', 'http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.0.6/modernizr.min.js', 'modernizr' );
