@@ -29,7 +29,7 @@ class Mzingi2 extends Theme
 		Stack::add('template_stylesheet', array($this->get_url(  '/css/parent.css' )), 'main', 'reset');
 	
 		//Add Javascript
-		Stack::add ( 'template_header_javascript', 'http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.0.6/modernizr.min.js', 'modernizr' );
+		Stack::add ( 'template_header_javascript', 'http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js', 'modernizr' );
 	}
 	
 	public function action_form_comment( $form ) { 
