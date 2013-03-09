@@ -13,6 +13,76 @@ body:after {
 body:after {
   clear: both;
 }
+/* Some Easy to change variables && common mixins */
+/*  Defaults
+-------------------------------------------*/a,
+a:visited {
+  color: #167ea2;
+}
+a:hover {
+  color: #1f5371;
+}
+h1 a,
+h2 a {
+  text-decoration: none;
+}
+h1 a:hover,
+h2 a:hover {
+  border-bottom: 1px dashed #1f5371;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+/*  Typography
+-------------------------------------------*//*General Typography Styles */
+body {
+  font: 100% normal;
+  line-height: 1.5em;
+  color: #213846;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #2a657a;
+  margin-bottom: 24px;
+}
+h1 {
+  font-size: 2.25em;
+  margin-bottom: 24px;
+}
+h2 {
+  font-size: 1.875em;
+}
+h3 {
+  font-size: 1.5em;
+}
+h4 {
+  font-size: 1.25em;
+}
+h5 {
+  font-size: 1.125em;
+}
+h6 {
+  font-size: 1em;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.entry p {
+  font-size: 1.125em;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+/*  Layout
+-------------------------------------------*//*  Custom Style Sheet for Mzingi v2.0 
+	by Michael Bishop http://miklb.com
+*/
 img {
   max-width: 100%;
   height: auto;
