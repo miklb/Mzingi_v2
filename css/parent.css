@@ -38,6 +38,7 @@ h2 a:hover {
 }
 /*  Typography
 -------------------------------------------*//*General Typography Styles */
+/* Some Easy to change variables && common mixins */
 body {
   font: 100% normal;
   line-height: 1.5em;
